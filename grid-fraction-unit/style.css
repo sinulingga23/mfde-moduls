@@ -1,0 +1,26 @@
+.matrix-a, .matrix-b {
+    width: 960px;
+    margin: 10px auto;
+    display: grid;
+}
+
+.matrix-a {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.matrix-b {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* styling purpose */
+.matrix-a .cell, .matrix-b .cell {
+    border: 1px dashed black;
+    padding: 32px;
+    text-align: center;
+    line-height: 15pt;
+}
+
+.matrix-a .cell:hover, .matrix-b .cell:hover {
+    font-weight: bold;
+    border: 2px solid black;
+}
