@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+}
+
+.container .row {
+    border: 1px dashed black;
+    padding: 16px;
+    text-align: center;
+}
+
+.container .row:hover {
+    background-color: blanchedalmond;
+}
